@@ -24,7 +24,7 @@ yum install -y xz openssl gawk file
 ```
 ## 2. Download script
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/leonguyen52/installNET/master/InstallNET.sh && chmod -x InstallNET.sh
+wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && bash InstallNET.sh --ip-addr 10.170.0.2 --ip-mask 255.255.255.0 --ip-gate 10.170.0.1 -dd 'https://oss.sunpma.com/Windows/Whole/cn_windows2012r2_administrator_Password147.gz'
 ```
 ## 3. Install OS via script
 
